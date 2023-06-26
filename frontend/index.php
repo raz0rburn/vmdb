@@ -452,8 +452,8 @@ function exportCsv(){
 </td>
 <td>
 	<label for="order_nic">Sort: </label>
-	<input type="radio" name="order_nic" value="0" checked="checked">Возр.</input>
-	<input type="radio" name="order_nic" value="1">Убыв.</input>	
+	<input type="radio" name="order_nic" value="0" checked="checked">Increase</input>
+	<input type="radio" name="order_nic" value="1">Decrease</input>	
 	<br/>
 	<div class="select-sort">
 		<select name="sortby_nic" id="sortby_nic">
@@ -473,7 +473,7 @@ function exportCsv(){
 	</div>
 		</form>
 		<div align="center" id="selectBoxInfo"></div>
-			<center><input type=button value="Найти NIC" onclick="startAjaxNic();">
+			<center><input type=button value="Find by NIC" onclick="startAjaxNic();">
 		</div>
 		</form>
 		<br/>
@@ -482,7 +482,7 @@ function exportCsv(){
 </table>
 
 
-<center><input type=button  value="Экспорт в CSV" id="btn_export" onclick="exportCsv();">
+<center><input type=button  value="Export to CSV" id="btn_export" onclick="exportCsv();">
 <div id=result>Result</div>
 
 
