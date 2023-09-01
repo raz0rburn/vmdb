@@ -1,0 +1,21 @@
+apt install python3-pip
+pip3 install pyTelegramBotAPI
+pip3 install pyVmomi
+pip3 install mysql-connector-python
+
+#install mysql 
+sudo apt policy mariadb-server mariadb-client
+sudo apt install mariadb-server mariadb-client
+apt policy mariadb-server mariadb-client
+#install nginx web server 
+sudo apt install nginx
+#try to log in mysql
+sudo mysql -u root
+#install php for frontend
+sudo apt install php-imagick php-phpseclib php-php-gettext php7.3-common php7.3-gd php7.3-imap php7.3-json php7.3-curl php7.3-zip php7.3-xml php7.3-mbstring php7.3-bz2 php7.3-intl php7.3-gmp
+#configure mysql
+sudo mysql_secure_installation
+#install mysql module for python3  
+pip3 install mysql-connector-python
+#dash components
+pip3 install dash_bootstrap_components
